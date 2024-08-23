@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0e3ddc72b6.js" crossorigin="anonymous"></script>
+    <title>Pooja Patil- Software Developer</title>
+</head>
+
+<body>
+    <!-- Navigation  -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sideMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!-- <li><a href="#">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Pooja</span> Patil</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/bg4.webp" alt="MyPhoto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Dedicated and skilled Angular/React developer with over 3 years of experience in designing,
+                        developing, and
+                        deploying dynamic web applications. Proficient in leveraging frameworks to build scalable and
+                        responsive front-end solutions that meet client requirements. Strong expertise in TypeScript,
+                        JavaScript,
+                        HTML5, and CSS3, Bootstrap, SQL coupled with a solid understanding of modern web development
+                        practices .Proficient in building scalable and robust solutions, with expertise in RESTful APIs
+                        and a solid
+                        understanding of database fundamentals.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Web Technologies </span><br>HTML5, Css3, Bootstrap5,Javascript,Typescript,API
+                                Integration, Basic SQL & Python etc</li>
+                            <li><span>App Development </span><br>Angular/React Developer</li>
+                            <li><span>Version Control & Other </span><br>GIT, GitHub , Scrum methodology, UI
+                                Development, Karma, Jasmin
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Apr to Current </span><br>Software-Engineer at Clover Infotech Pvt Ltd Pune
+                            </li>
+                            <li><span>2022-Jan to 2023-Oct </span><br>Assistant System Engineer at Tata Consultancy
+                                Services Pune</li>
+                            <li><span>2020-Dec to 2021-Dec </span><br>Internship and Associate Engineer at People Tech
+                                Group Hyderabad</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>BCA & MCA passout with Distinction </li>
+                            <li><span>2016 </span><br>HSC from Jamner with 63%</li>
+                            <li><span>2014 </span><br>SSC from Pachore with 82%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+
+                    <h2><i class="fa-solid fa-code"></i> Web Design</h2>
+                    <p>
+                        <ul>
+                            <li>Frontend Technologies: Solid understanding of HTML5, CSS, JavaScript, Typescript,
+                                Bootstrap and
+                                responsive design principles to create engaging and user-friendly interfaces. </li>
+                            <li>Version Control & Collaboration: Experience working with Git for version control and
+                                collaboration in
+                                distributed development teams.</li>
+                            <li>Responsive Design: Optimized for various devices and screen sizes using CSS media
+                                queries and
+                                Bootstrap grid system.</li>
+                            <li> Interactive Elements: Implemented JavaScript for dynamic content and enhanced user
+                                interactions.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+
+                    <h2><i class="fa-brands fa-angular"></i>Angular/React Dev</h2>
+                    <p>
+                        <ul>
+                            <li>Angular Development: Extensive experience in developing Angular applications, including
+                                Angular
+                                2+,
+                                Angular CLI, components, directives, services, modules, and pipes. and Angular Material
+                                for UI
+                                components.</li>
+                            <li>Problem-solving & Troubleshooting: Effective problem-solving skills with a keen
+                                attention to
+                                detail, able to
+                                diagnose and resolve issues efficiently in fast-paced environments.</li>
+                            <li>Visual Design: Applying principles of color theory, typography, and layout to create
+                                engaging and aesthetically pleasing interfaces.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+
+                    <h2><i class="fa-brands fa-app-store-ios"></i> Design</h2>
+                    <p>
+                        <ul>
+                            <li>Designed and developed a fully responsive portfolio website to showcase personal and
+                                professional projects. The site features a modern, clean layout with interactive
+                                elements and smooth transitions.</li>
+                            <li>User-Centered Design: Crafting designs that prioritize user needs and behaviors,
+                                ensuring intuitive navigation and accessibility.</li>
+                            <li> Wireframing & Prototyping: Utilizing tools like Figma and Adobe XD to develop
+                                wireframes and interactive prototypes, allowing for iterative design and user feedback.
+                            </li>
+
+                        </ul>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>poojavpatil0211@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9860547932</p>
+                    <p class="linkedIn"><i class="fa-brands fa-linkedin"></i><a
+                            href="https://www.linkedin.com/in/pooja-patil-2089381b2"
+                            target="_blank">https://www.linkedin.com/in/pooja-patil-2089381b2</a></p>
+
+                    <a href="../Portfolio_Html,css,js/assets/PoojaPatil_Resume.pdf" target="_blank" download
+                        class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Pooja.Patil Made <i class="fa-solid fa-heart"></i> by Web Technologies.</p>
+    </div>
+
+</body>
+
+</html>
