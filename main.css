@@ -15,7 +15,7 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(./assets/Background3.jpg);
+    background-image: url(Background3.jpg);
     background-size: cover;
     background-position: center;
     
@@ -269,7 +269,7 @@ nav .fa-solid{
 /* Css For Small Screen */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./assets/Bg.png);
+        background-image: url(Bg.png);
         height: 500px;
     }
     .header-text{
